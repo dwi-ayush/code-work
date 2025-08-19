@@ -527,5 +527,28 @@ public class Bsics{
 
     }
 }*/
-                                   // program 24
-                                                                
+                                //program 24
+   //  power of four 
+   /*public class Bsics {
+
+    public static boolean isPowerOfFour(int n) {
+        if (n <= 0) {
+            return false;
+        }
+        while (n % 4 == 0) {  // Keep dividing by 4 if divisible
+            n /= 4;
+        }
+        return n == 1;  // If after dividing by 4 repeatedly, the number becomes 1, it is a power of 4
+    }
+
+    public static void main(String[] args) {
+        int num = 64;
+        if (isPowerOfFour(num)) {
+            System.out.println(num + " is a power of four.");
+        } else {
+            System.out.println(num + " is not a power of four.");
+        }
+    }
+}*/
+                                   // program 25
+ // prime factorization
