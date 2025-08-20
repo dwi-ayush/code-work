@@ -552,3 +552,80 @@ public class Bsics{
 }*/
                                    // program 25
  // prime factorization
+/*import java.util.Scanner;
+public class Bsics{
+    public static void main(String[] args) {
+        Scanner  scn = new Scanner(System.in);
+        System.out.println("eneter the number");
+        int n = scn.nextInt();
+        for( int div = 2; div * div < n ; div++){ // hamne 2 se start kiya aur tab tak loop chalya jab tak uska root nahi aa gaya 
+         while(n%div == 0){
+            n = n / div;
+            System.out.print(div + " ");
+         }
+        }
+        if( n != 1){
+
+          System.out.print(n); // koi aisa number aa gaya jo root ke pahle number se divide nhi ho rha that means wo bhi ek prime number hai to use bhi print kar denge
+        }
+    }
+}*/
+// note -- if u assign a double with integer value it will print it in .0 like we assign it as 19 it will print 19.0
+                                              // program 26
+// use if and boolena 
+/*public class Bsics{
+    public static void main(String[] args) {
+        boolean isOnline = true;
+        //boolean isOnline = false;
+        if(isOnline){
+            System.out.println("she is cheating"); // when true statment work 
+        }
+        else{
+            System.out.println("she is loyal");// when false statment work 
+        }
+    }
+}*/
+// note-) to store value in string we use {nextline} is we only use next then it will not read up the part after the space line 
+
+                                                 // program 27 
+// input program function 
+/*import java.util.Scanner;
+public class Bsics{
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scn.nextLine();
+        System.out.print("enter you age:  ");
+        int age = scn.nextInt();
+        System.out.print("enter your gpa: ");
+        double gpa = scn.nextDouble();
+        System.out.print("are you student ? : (true/false)");
+        boolean check = scn.nextBoolean();
+        System.out.println("hello " + name);
+        System.out.println("you are "+ age + " year old");
+        System.out.println("your gpa is "+ gpa);
+        if(check){
+            System.out.println("your are enrooled as the student");
+        }
+        else{
+            System.out.println("your are enrooled as the student");
+        }
+    }
+}*/
+
+/*when ever you get input buffer just use 
+scanner.nextline():*/
+
+
+                                                 // program 28     
+ // area of the rectangele 
+ import .java.util.Scanner;
+import java.util.Scanner;
+ public class Bsics{
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        
+
+
+    }
+ }                                                                                     
