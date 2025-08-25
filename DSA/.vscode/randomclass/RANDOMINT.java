@@ -11,7 +11,7 @@ public class RANDOMINT {
 
          number1 = rnd.nextInt(); // random number from - 2 billion to 2 billion
 
-         number2 = rnd.nextInt(1 , 7);// it will give vaule from 1 to 6 not 7
+         number2 = rnd.nextInt(24 , 46);// it will give vaule from 1 to 6 not 7
 
          System.out.println(number1);  
 
