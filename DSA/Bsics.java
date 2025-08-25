@@ -619,13 +619,17 @@ scanner.nextline():*/
 
                                                  // program 28     
  // area of the rectangele 
- import .java.util.Scanner;
-import java.util.Scanner;
+/*import java.util.Scanner;
  public class Bsics{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        
-
-
+        System.out.print("enter the length of the rectangle : ");
+        double length = scn.nextDouble();
+        System.out.print("enter  the breath of the rectangle : ");
+        double breath = scn.nextDouble();
+        double   area = (length * breath); 
+        System.out.println(" area of the rectangle is : "+area);
     }
- }                                                                                     
+ }*/
+                                            // program 29
+        

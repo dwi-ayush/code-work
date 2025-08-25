@@ -1,0 +1,20 @@
+--> if we wnant to check weather the string is empty we willl write (variablename.isEmpty)
+                                   or
+      (variablename == "")                             
+
+--> to store value in string we use {nextline} is we only use next then it will not read up the part after the space line 
+
+/*when ever you get input buffer just use 
+scanner.nextline():*/
+
+
+// note -- if u assign a double with integer value it will print it in .0 like we assign it as 19 it will print 19.0
+
+Random class 
+ first we will call up the library by
+ {import java,util.Random}
+ after as the scannerprocess we will assign up the name 
+ {Random  rnd = new Random()}
+ now it will give Random values we can use ot for multiple things like int double bollean 
+ go thorugh upwith the program 
+
