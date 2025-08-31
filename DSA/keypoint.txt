@@ -49,3 +49,4 @@ result = Math.max(3, 6);  // it will give 6
 result = Math.min(3, 6);  // it will give 3
 
 --- read up the fprint file for printf work 
+
