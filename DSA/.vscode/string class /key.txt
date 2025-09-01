@@ -3,7 +3,7 @@ to  get the length of a strimg we use
 and to check for the charcater value the what value is presnt at that index we use 
    char (variablename) =(stringname).charAt(indexvalue)
 to find up the index value we will use 
-   int index = (stringname).indexog("(lettr name )")
+   int index = (stringname).indexOf("(lettr name )")
 // it will also give a index value to pace also 
 
 to get al value at upper case we will use 
