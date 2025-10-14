@@ -1,0 +1,119 @@
+--> if we wnant to check weather the string is empty we willl write (variablename.isEmpty)
+                                   or
+      (variablename == "")                             
+
+--> to store value in string we use {nextline} is we only use next then it will not read up the part after the space line 
+
+/*when ever you get input buffer just use 
+scanner.nextline():*/
+
+
+// note -- if u assign a double with integer value it will print it in .0 like we assign it as 19 it will print 19.0
+
+Random class 
+ first we will call up the library by
+ {import java,util.Random}
+ after as the scannerprocess we will assign up the name 
+ {Random  rnd = new Random()}
+ now it will give Random values we can use ot for multiple things like int double bollean 
+ go thorugh upwith the program 
+
+for the vlue of pi  we write sout(math.PI)
+
+//FOR THE POWER WE USE 
+ reult = Math.pow(2, 3); // here it means 2 having power 3 
+// result is a variable 
+
+// for the absolute value we  will b using 
+result = Math.pow(-5);
+/ it will reult the positive value 
+
+// for aquare root we will use 
+result = Math.SQRT(9);
+// answer will be 3
+
+// for the round  value we  will b using 
+result = Math.round(5.14);
+/ it will reult the  value  5
+
+// for the round up  value we  will b using 
+result = Math.ceil(3.14);
+/ it will reult the value 4 
+
+// for the round down  value we  will b using 
+result = Math.floor(3.99);
+/ it will reult the value 3
+
+// for the maximun and minmum value we  will b using 
+result = Math.max(3, 6);  // it will give 6
+result = Math.min(3, 6);  // it will give 3
+
+--- read up the fprint file for printf work 
+
+------------------varargs------------------------------------------
+
+varargs = allow a method to accecpt a varying #(number) of arguments 
+          make methids to accept ,ore flexible , ni need for overloaded methods 
+          java will pack the arrguments into an array
+          ...(ellipis) are used toassign it 
+          
+--------------------------object oriented programing---------------------------------
+# objects = An entity that holds data (attributes)
+            and can perform actions (methods)
+        It is refrence data type!!
+
+---------------------------comstructor---------------------------
+ constructor = A special method to initialize objects
+               You can pass arguments to a constructor
+               and set up intial value 
+
+----------------------- overloader constructors-----------------------------
+overloader constructor= Allow a class to have multiple constructors
+                        with diffrent parameters list.
+                        Enable objects to be intialized in various ways   
+
+-----------------------------static----------------------------------------------
+static = make a variable or method belong to the class
+       rather than to any specific objects.
+    Commonly used for utility methods or shared resources.
+
+--------------------------Inheritance--------------------------------------
+Inheritance = One class inherits the attributes and methods 
+                from another class 
+                Child <- Parent
+
+--------------------------super---------------------------------------------
+Super = Refer to the parent class (subclass <- superclass)
+        Used in constructors and method overrinding
+     Calls the parent constructor to intialize attributes 
+
+----------------------------Method overriding----------------------------------------
+Method Overrriding = When a subclase provides its own 
+                     implementation of a method that is already defined.
+                     Allow for code resusability and Give specific implementation.
+
+--------------------------------Tostring Method-----------------------------------------
+ tostring() = Methodinherited from the Object Class.
+                Uesd to return representation of an object.
+                By default, it returns a hash  code as a unique identifier.
+                It can be overridden to provide meaningful details.
+
+-------------------------------- Abstraction-------------------------------------------
+Abstract = Used to define Abstract classes and methods.
+           Abstraction is the process of hiding implementation details and showing only essential features.
+    Abstract classes CAN'T be instantied directly
+    Can contain 'abstract, method(which must be implemented)
+    Can contain'concerete, methods (which are inherited)                                                     
+
+--------------------------------Interface-----------------------------------------------
+Interface = A blueprint for a class that specifies that specifies a set of abstract methods
+            that implemnting classesMUst define.
+            Supp0rts Multiple inherits-like behavior.
+
+---------------------------------Polymorphims-------------------------------------------------            
+Polymorphism = "POLY" = "MANY'
+               "MORPH" = "SHAPE"
+               Object can identify as other objects.
+               Objects can be treated as object o a common superclass.
+
+

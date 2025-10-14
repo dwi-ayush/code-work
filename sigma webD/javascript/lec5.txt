@@ -1,0 +1,59 @@
+// comparison of datatype 
+
+// ==={strict check} => it only not check up  value but also check up for the data type
+// and in strict check conversion does not take palce 
+
+//we have avoid these types of code 
+/*
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+*/
+//JavaScript is dynamicly types as we need not to define up the data type 
+
+/*
+we talk about symbols 
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log( id ====  anotherId);
+##-> and when we strict check  them we will get false 
+*/
+
+-------------------------------------------------------------------------------------
+
+/* data type is basicly of two types on the memoery categiory 
+#1 -> premitive data type :- they are predefined datatype 
+{String, number , boolean, null, undefined, Symbol(make value unique), bigint , }
+
+
+#2 -> non premitive data type :- they are user defined data type {its is refrence data types}
+
+{Array, Object, Function}
+
+# when we check up the data type of non premitive data type it genreally return up with Object 
+
+*/
+
+---------------------------------------------------------------------------------------------
+
+// how to declare up non premitivedata type 
+
+# Declaration of Array
+ 
+ const heros ={"Ayush","Arnav","Ashwani(chinatu)"};
+
+# Declarationoof an Object
+ 
+ let myObj ={
+    name =  "Ayush",
+    age = 22,
+} 
+// every thing isnide the curly bracets 
+
+# Declaration of an function 
+
+
+ const myFunction = function() //this function can not be change
+ {
+    console.log("Hello World");
+ }
