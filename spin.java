@@ -8,10 +8,10 @@ public  class spin{
      boolean spin = rnd.nextBoolean();
 
     if(spin){
-        System.out.println("  I should eat  non veg    !!! ");
+        System.out.println("  I should  go to hostell !!! ");
     }
     else{
-        System.out.println("  I should  eat in veg  !!! ");
+        System.out.println("  I should  not go to hostel !!! ");
     }
 
     }

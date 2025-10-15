@@ -22,7 +22,8 @@ console.log( id ====  anotherId);
 -------------------------------------------------------------------------------------
 
 /* data type is basicly of two types on the memoery categiory 
-#1 -> premitive data type :- they are predefined datatype 
+#1 -> premitive data type :- they are predefined datatype {its a call by value data type   }
+
 {String, number , boolean, null, undefined, Symbol(make value unique), bigint , }
 
 
@@ -57,3 +58,7 @@ console.log( id ====  anotherId);
  {
     console.log("Hello World");
  }
+
+ ------------------------------------------------------------------------------------------------------
+
+ // in JavaScript comparison(==, <,>) and eqaulity(==,>=,<=) check both work in different forms 
