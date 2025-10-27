@@ -4,7 +4,7 @@ const repoCount = 50; // numeric is fine too
 // Outdated concatenation
 console.log(name + " " + repoCount);
 
-// Modern way using template literals (backticks)
+// Modern way using template literals (backticks){using backtick we can directly do string injaculation}
 console.log(`Hello, my name is ${name.toUpperCase()} and my repo count is ${repoCount}`);
 
 // String object (use capital 'S')
