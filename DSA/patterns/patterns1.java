@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class patterns1{
     public static void main(String[] args) {
-        // pattern print of solin rectangle of length 5 and breath 4
+        // pattern print of solid rectangle of length 5 and breath 4
 
         Scanner scn = new Scanner(System.in); 
-        int n;
+        int n; 
         int m; 
 
         System.out.print("enter the number of rows: ");
