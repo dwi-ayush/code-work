@@ -4,7 +4,7 @@
 
 console.log(3+3); console.log("Hitesh ") // code readlibity should be high  prefer new line 
 
-// JS does not hav bhaut sare data type 
+// JS does not have bhaut sare data type 
 
 let name = "Ayush" //auto string
 let age = 21 // auto int 
@@ -25,7 +25,7 @@ symbol => unique *mostly used in react*
 */
 
 
-// typeof =>  know the type of datype
+// typeof =>  know the type of the datype
 
 
 console.log(typeof age) // int 

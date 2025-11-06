@@ -23,7 +23,7 @@ let isloggedIN = 1
 let booleanlogedin = Boolean(isloggedIN)
 console.log(booleanlogedin); // output => true
 
-// " "{emty boleean string} => false
+// " "{emty boleean string coversion} => false
 //"Ayush" {boolean conversion}=> true
 
 let SomeNumber = 33

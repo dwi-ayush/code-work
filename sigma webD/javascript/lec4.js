@@ -1,12 +1,16 @@
 // why string to number converion is confusing 
 
+/*"Strings talk, numbers count."
+A string is how humans say a number (“one hundred”), but numbers are how computers calculate it (100).
+When converting, you’re basically “translating languages” — and translators can get confused!*/
+
 //*************** operation *****************
 
 let value= 3
 let negValue = -value
-//console.log(negValue); //output => -3
+console.log(negValue); //output => -3
 
-//console.log(2**2)//2 raise to power 3 
+console.log(2**2)//2 raise to power 3 
 
 let str1 =  "hello"
 let str2 = " ayush"
@@ -22,6 +26,9 @@ console.log(1+2+"2");//32
 
 console.log(+true);//1
 console.log(+"");//0 {since empty string store false value }
+
+
+
 
 
 
