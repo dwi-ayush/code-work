@@ -96,3 +96,10 @@ public class basic{
         }
     }
 }
+
+
+/* 
+ -> all functions in java are stored in stack memory form.{ matlb wo book pattern ek ke upar ek wala seen }
+ new memory is cerated when it is called by main function and end up when it retrun up the value
+ ->  we camelcase to name function {camelcase ex=(printMyNmae) starting word captial and other small }
+*/
