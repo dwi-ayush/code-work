@@ -1,3 +1,4 @@
+# the following code is used for removing the .class file automatically created as after  running up the java program 
 import os
 
 def clean_class_files(target_dir="."):

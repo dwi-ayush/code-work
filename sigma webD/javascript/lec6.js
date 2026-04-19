@@ -1,29 +1,35 @@
-// stack and heap in javascript lecture 10
+//datatype conversion and confusion 
 
-// memoery is of two types -> stack and heap
-// stack -> used at primitive data type  that means call by value {that means copying the value and using it}
-// heap -> used at non primitive data type  that means call by value {that means it uses original value}
+let score = "33abc"
+
+console.log(typeof score);
+console.log(typeof(score));
 
 
-//-----------------stack------------
-let myYoutubename = "Ayushdwivedi2108" ;
+let valueInNumber = NUMBER(score)
+console.log(typeof score);
+// the output will be NaN that means it is not a number 
 
-let anothername = myYoutubename
-anothername = "dwivediayush3615"
+// null is coverted in number it will give up value 0
 
-console.log(myYoutubename);// this value will not change as it provided acopy of it,
+//undfined datatype output will be NaN 
 
-console.log(anothername);
+// boolean will giv 1 & 0 in number conversion 
 
-//-----------heap-------------------
-let userOne ={
-    email: "user@google.com",
-    upi: "gop@ybl"
+//"33" => 33
+// "33abc" => NaN
 
-}
+let isloggedIN = 1
+let booleanlogedin = Boolean(isloggedIN)
+console.log(booleanlogedin); // output => true
 
-let userTwo = userOne
-userTwo.email ="ayush@gmail.com"
+// " "{emty boleean string coversion} => false
+//"Ayush" {boolean conversion}=> true
 
-console.log(userOne)
-console.log(userTwo)
+let SomeNumber = 33
+let StringNumber  = String(SomeNumber)
+console.log(StringNumber); // output => 33 
+console.log(typeof(StringNumber)); // but when we check type of it will give string 
+
+
+

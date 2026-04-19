@@ -8,11 +8,11 @@ public  class spin{
      boolean spin = rnd.nextBoolean();
 
     if(spin){
-        System.out.println("  I should take mobile phone   !!! ");
+        System.out.println("   ");
     }
-    else{
-        System.out.println("  I should  not take mobiloe phone u will  clear back   !!! ");
+    else if (spin) {
+        System.out.println("    ");
     }
-
+    
     }
 }

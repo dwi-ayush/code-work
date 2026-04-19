@@ -1,34 +1,26 @@
-// why string to number converion is confusing 
 
-/*"Strings talk, numbers count."
-A string is how humans say a number (“one hundred”), but numbers are how computers calculate it (100).
-When converting, you’re basically “translating languages” — and translators can get confused!*/
-
-//*************** operation *****************
-
-let value= 3
-let negValue = -value
-console.log(negValue); //output => -3
-
-console.log(2**2)//2 raise to power 3 
-
-let str1 =  "hello"
-let str2 = " ayush"
-let str3 = str1 + str2 // only addition can be done 
-console.log(str3); // hello Ayush
+// lecture 1 and 2 does not  have any topic content
+//  lec 2 contain of setup and other work 
+// lecture 3 conatin all github online code activity 
 
 
 
-console.log("1"+2);// 12
-console.log(1+"2");//12
-console.log("1"+2+20); //122
-console.log(1+2+"2");//32
+console.log("Ayush")
 
-console.log(+true);//1
-console.log(+"");//0 {since empty string store false value }
+// variable name should be assign as that is easy to readable and easy to understand
 
 
+const accountId = 3654464 // fix  value {as it  is a constant }
+// variable =  value can be changed
+let accountmail = "ayushdwivedi@gmail.com" // new type to store variable 
+var accountPassword ="ayush@y456" // old type to strore variable 
+accountCity = " jaipur" // value can be stored without any variable but it is not correct way
+let accountState;  // value printed will b undefined as value is not defined 
+// not necceassary to use semicolumn
 
+/* 
+prefer not use {var}
+because of isue in block scope and function [scope means {} code part ]
+*/
 
-
-
+console.table([ accountId, accountmail, accountPassword, accountCity]) // create the table and print the value means in tabular form 
