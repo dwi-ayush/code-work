@@ -666,7 +666,7 @@ scanner.nextline():*/
 }*/
 
                                                       // program 31
-public class Bsics{
+/*public class Bsics{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
@@ -699,5 +699,195 @@ public class Bsics{
            }
         scn.close();
     }
-}
-                                                      
+}*/
+
+                                              //program 32
+/*public class Bsics{
+    public static void main(String[] args){
+        System.out.println("Hello word with java");// println is usd in next line other wise write print
+        System.out.print("Hello word with java\n y ayush dwvedi ");// can also be used for the work 
+    }
+}*/                
+                                            // program 33
+/*public class Bsics{
+    public static void main(String[] args){
+
+        //variable 
+        String name = "tony stark";
+        int age = 40;
+        double  price = 1654.1565;
+        int a = 4;
+        int b = 553;
+
+        b = 7;
+        name = "sbhj";
+
+    }
+}*/
+                   // program 34
+/*public class Bsics{
+    public static void main(String[] args ){
+        Scanner scn = new Scanner(System.in);
+        int a;
+        int b;
+
+        System.out.print("Enter up the value of a & b");
+        a = scn.nextInt();
+        b = scn.nextInt(); 
+
+        int sum = (a+b);
+
+        System.out.print("sUM OF a & b is  "+sum);
+
+    }
+}*/                                                      
+                          // program 35
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = scn.nextInt();
+        if(age>=18){
+            System.out.println("you are ELIGIBLE!");
+        }else{
+            System.out.println("you are not!");
+        }
+
+    }
+}*/                          
+                                 // progarm 36
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int num = scn.nextInt();
+        if(num % 2 == 0){
+            System.out.println("Even!");
+        }else{
+            System.out.println("Odd!");
+        }
+
+    }
+}*/
+                                  //program 37
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+
+        System.out.println("enter the numbers: ");
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+
+        if(a == b){
+            System.out.println("Equal!");
+        } else if(a>b){
+            System.out.println("a is greater!");
+        } 
+        else{
+            System.out.println("b is greater!"); 
+        }
+
+    }
+}*/          
+                                    // program 38
+ // switch program   
+ /*
+ switch(variable){
+ case1:
+ stt1;
+ break;
+ 
+ case2:
+
+ stt2;
+ break;
+ 
+ case3:
+ stt3;
+ break;
+ 
+ default:
+ }*/                   
+                                  // program 39
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        int button;
+        System.out.println("Enter your number! ");
+        button = scn.nextInt();
+
+
+        switch(button){
+            case 1: System.out.println("Hello");
+            break;
+ 
+            case 2: System.out.println("Namaste");
+            break;
+ 
+            case 3:System.out.println("Bonjur");
+            break;
+            default : System.out.println("invalid input!");
+        }
+    }
+}*/
+                                // program 40
+/*public class Bsics{
+    public static void main(String[] args){
+
+        for( int i=0; i<=10; i++)
+        System.out.println(i);
+
+
+    }
+}*/
+                            // program 41
+/*public class Bsics{
+    public static void main(String[] args){
+        int i=0;
+        while(i<11){
+            System.out.println(i);
+            i++;
+        }
+    }
+}*/            
+                              // program 42
+/* public class Bsics{
+    public static void main(String[] args){
+        int i=0;
+        do{
+            System.out.println(i);
+            i++;
+        }while(i<11);
+    }
+}*/             
+                              // program 43
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        int i;
+        int sum =0 ;        
+        System.out.println("Enter up the Number");
+        i = scn.nextInt();
+
+        for(int j=1 ; j<=i; j++){
+            sum = sum +i;
+        }
+        System.out.println(sum);
+
+
+    }
+}*/
+                              // program 44
+/*public class Bsics{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        int i;
+        System.out.println("Enter up the Number");
+        i = scn.nextInt();
+
+        for(int j =1; j<11;j++){
+            System.out.println(i*j);
+        } 
+    }
+ }*/  
+

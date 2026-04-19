@@ -6,7 +6,7 @@ public class pattern3{
         
         Scanner scn = new Scanner(System.in);
 
-        int n ; // in this particular code we dont ned coluyms bcz it is a half pyramid 
+        int n ; // in this particular code we dont need colums bcz it is a half pyramid 
 
         System.out.print("enter the number of rows ");
         n =  scn.nextInt();
