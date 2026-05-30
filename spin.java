@@ -1,18 +1,19 @@
-
 import java.util.Random;
 
-public  class spin{
+public class spin {
+
     public static void main(String[] args) {
-     Random rnd = new Random();       
 
-     boolean spin = rnd.nextBoolean();
+        Random rnd = new Random();
 
-    if(spin){
-        System.out.println("  I should go to hostel  !!! ");
-    }
-    else{
-        System.out.println("  I should  not go to hostel  !!! ");
-    }
+        boolean spin = rnd.nextBoolean();
+
+        if (spin) {
+            System.out.println("work");
+        } 
+        else {
+            System.out.println("do not work");
+        }
 
     }
 }

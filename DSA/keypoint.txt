@@ -117,3 +117,30 @@ Polymorphism = "POLY" = "MANY'
                Objects can be treated as object o a common superclass.
 
 
+----------------------------------------conditional statement-----------------------------------
+if we need to print only single line after if statement we not 1require for the {bracket}
+ // switch program   
+ /*
+ switch(variable){
+ case1:
+ stt1;
+ break;
+ 
+ case2:
+
+ stt2;
+ break;
+ 
+ case3:
+ stt3;
+ break;
+ 
+ default:
+ }     
+ ---------------------------------- diffrence b/w do while and while --------------------------------------------------
+Do while loop first implement up the statement  one time after that check up the condition 
+but where asd in while loop we first check up the condition and implementation   of the code 
+is done that means in a invalid condition do while loop will once exhecute up the statemenat and 
+in while loop statemenatwill not be exhecuted
+---------------------------------------------------------------------------------------------------------                                                                                                           
+    
