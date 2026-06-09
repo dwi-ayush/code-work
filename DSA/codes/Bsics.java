@@ -894,7 +894,7 @@ scanner.nextline():*/
                               // program 45 
 
    // factorial number using function/methods 
-   public class Bsics{
+   /*public class Bsics{
     public static void PrintFactorial(int n){
        
         if(n<=0){
@@ -923,4 +923,30 @@ scanner.nextline():*/
 
         }
         
+    }*/
+
+                                 //  program 46
+ // count even  and odd 
+ public class Bsics {
+    public static void main(String[] args) {
+
+        int ev = 0;
+        int od = 0;
+
+        int[] arr = {12, 7, 9, 4, 18, 21, 6};
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] % 2 == 0) {
+                ev++;
+            } else {
+                od++;
+            }
+        }
+
+        if (ev + od == arr.length) {
+            System.out.println("Even Numbers: " + ev);
+            System.out.println("Odd Numbers: " + od);
+        }
     }
+}
