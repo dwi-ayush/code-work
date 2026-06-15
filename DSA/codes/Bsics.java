@@ -1,7 +1,6 @@
 
 import java.util.Scanner;
 
-
 // print hello world 
 /*public class Bsics {
     public static void main(String[] args) {
@@ -10,7 +9,7 @@ import java.util.Scanner;
 }
 */
 
-                                    // program 2
+// program 2
 
 //print a tringale of 5 star without using  5 line by using \n
 /*public class Bsics{
@@ -19,7 +18,7 @@ import java.util.Scanner;
     }
 }
 */
-                                    //program 3
+//program 3
 // print z in java 
 /*public class Bsics {
     public static void main(String[] args) {
@@ -31,7 +30,7 @@ import java.util.Scanner;
 
     }
 }*/
-                                  // program 4
+// program 4
 // program for arthmatic of a number 
 /*public class Bsics{
     public static void main(String[] args) {
@@ -56,23 +55,23 @@ import java.util.Scanner;
      System.out.println("answer of the expression2 is " + expression2);
      }
 }*/
-                              //program 5
+//program 5
 //odd and even program 
- /*public class Bsics{
-    public static void main(String[] args) {
-    int x = 1316;
-    if(x%2 == 0)
-    {
-        System.out.println(x + " is a even number ");
-    }  
-    else 
-    {
-        System.out.println(x + " is a odd number");
-    }
-    System.out.println("so the word hader along with smarter srategy");
-    }
- }*/
-                             // program 6
+/*public class Bsics{
+   public static void main(String[] args) {
+   int x = 1316;
+   if(x%2 == 0)
+   {
+       System.out.println(x + " is a even number ");
+   }  
+   else 
+   {
+       System.out.println(x + " is a odd number");
+   }
+   System.out.println("so the word hader along with smarter srategy");
+   }
+}*/
+// program 6
 // nested if and else loop prgram 
 /*public class Bsics
 {
@@ -97,7 +96,7 @@ import java.util.Scanner;
     }
  }  
 }*/
-                                //program 7
+//program 7
 // grading system problem
 /*public class Bsics{
     public static void main(String[] args) {
@@ -122,7 +121,7 @@ import java.util.Scanner;
          System.out.println("wish best for the student future");
     }
 }*/
-                                      // program 8
+// program 8
 //loop statment                                                                       
 // printing number from1 to 9 using while loop
 /*public class Bsics
@@ -139,7 +138,7 @@ import java.util.Scanner;
     System.out.println("program executed by while loop");    
     }
 }*/
-                                     // program 9
+// program 9
 // doing same profram with usinf for loop 
 /*public class Bsics{
     public static void main(String[] args) {
@@ -150,7 +149,7 @@ import java.util.Scanner;
      System.out.println("program exectuded by for loop ");
     }
 }*/
-                                  // program 10
+// program 10
 // input from user and the sum of the number 
 
 /*import java.util.Scanner;
@@ -172,7 +171,7 @@ public class Bsics{
     
     }
 }*/
-                                 //program 11
+//program 11
 /* in this program  we will be given  input by user and we have to and check that weather number is prime 
 is or not along with it user   hame yeah bhi batayega ki kitne inouts hame lene hai*/
 /*import java.util.Scanner; 
@@ -205,7 +204,7 @@ public class Bsics{
     }
 }*/
 // this programa consume a  lot of time that means it has high time complexcity which is O(n^2) which is worst 
-                                     // program 12
+// program 12
 //the same program but my method and this has less time complexcity than that which is O(n) which is good                                      
 /*import java.util.Scanner; 
 public class Bsics{
@@ -236,7 +235,7 @@ public class Bsics{
         scn.close();
     }
 }*/
-                                            // program 13
+// program 13
 // same by using the square root loop and {break statment}
 // as complecity of this program is O(sqrt(n)) which is best
 /*import java.util.Scanner; 
@@ -268,8 +267,8 @@ public class Bsics{
 
         scn.close();
     }
-}*/                                           
-                                          //program 14
+}*/
+//program 14
 // print all prime number till user given value                                           
 /*import java.util.Scanner; 
 public class Bsics {
@@ -291,7 +290,7 @@ public class Bsics {
         }
     }
 }*/
-                                        // program 15 
+// program 15 
 // print prime number btween 2 nuber given by user
 /*import java.util.Scanner; 
 public class Bsics {
@@ -316,28 +315,28 @@ public class Bsics {
         }
       }
     }
-}*/                                    
-                                      // program 16
-// fibbonaci series 
-  /*  import java.util.Scanner;
-    public class Bsics{
-    public static void main(String[] args) {
-     Scanner scn = new Scanner(System.in);
-     System.out.println("Enter the number");
-     int n = scn.nextInt();
-      int a = 0;
-      int b = 1;
-      for(int i = 0; i <= n; i++)
-      {
-        System.err.println(a);
-        int c = a+b;
-        a = b;
-        b = c;
-
-      }
-    }
 }*/
-                                        // program 17      
+// program 16
+// fibbonaci series 
+/*  import java.util.Scanner;
+  public class Bsics{
+  public static void main(String[] args) {
+   Scanner scn = new Scanner(System.in);
+   System.out.println("Enter the number");
+   int n = scn.nextInt();
+    int a = 0;
+    int b = 1;
+    for(int i = 0; i <= n; i++)
+    {
+      System.err.println(a);
+      int c = a+b;
+      a = b;
+      b = c;
+
+    }
+  }
+}*/
+// program 17      
 // count the number of  digit given by th user and tell how ma y digits are present
 // counting digits in a number :-
 /*import java.util.Scanner;
@@ -353,8 +352,8 @@ public class Bsics{
         }
         System.out.println(digit);
     }
-}*/ 
-                                        // program 18
+}*/
+// program 18
 // fibonnaci number 
 /*import java.util.Scanner;
 public class Bsics
@@ -380,7 +379,7 @@ public class Bsics
         System.out.println("Fibonacci number at position " + n + " is  "  + b);
     }
 } */
-                                      // program 19
+// program 19
 // represnt the number of digit seprating 
 /*import java.util.Scanner;
 public class Bsics{
@@ -402,8 +401,8 @@ public class Bsics{
         div = div / 10;
         }
     }
-}*/       
-                                     // program 20
+}*/
+// program 20
 // reverse a number 
 /*import java.util.Scanner;
 public class Bsics{
@@ -418,7 +417,7 @@ public class Bsics{
         }
     }
 }*/
-                                    // program 21
+// program 21
 // inverse of a number { assumption is that if their is 6 digit than it will contain all the number from 1to6 without repitetion }    
 // ex-) 81456273 its inverse will be 82456137 matlb ki jaise 3 jo hai 1 pe hai to inverse hone pe 1 jo hai 3 pe aa jayega aise 7 jo hai 2 pe hai to inverse hone 2 jo hai 7th posion pe aa jayega 
 // logic -) inverse karte time inverse digit me 10^(inverse place -1) jaise 7 jo hai 2 pe hai to inverse hone  ke liye { 2* (10^(7-1))}
@@ -443,11 +442,11 @@ public class Bsics{
         System.out.println(inv);
     }
 }*/
-                                         // program 22
+// program 22
 //Rotation of number 
 /* in this what we have to do that jaise number hai 12739 hai aur hame rotate karne ko kaha +2 se means 91273 
 aur ham negavive me bhi rotation kar skate hai jaise hamae yahi same number -3 se kaha to aayega 39127
-isme hame number bhi input 'n' lena hai aur kitne se rotake karna hai 'k' woh bhi input lena  */    
+isme hame number bhi input 'n' lena hai aur kitne se rotake karna hai 'k' woh bhi input lena  */
 /*import java.util.Scanner;
  // Import Scanner class to take input from the user
 
@@ -505,7 +504,7 @@ public class Bsics {
         scn.close(); // Close the Scanner to prevent memory leak
     }
 }*/
-                              // program 23
+// program 23
 // lcm and GCD
 /*import java.util.Scanner;
 public class Bsics{
@@ -530,31 +529,31 @@ public class Bsics{
 
     }
 }*/
-                                //program 24
-   //  power of four 
-   /*public class Bsics {
+//program 24
+//  power of four 
+/*public class Bsics {
 
-    public static boolean isPowerOfFour(int n) {
-        if (n <= 0) {
-            return false;
-        }
-        while (n % 4 == 0) {  // Keep dividing by 4 if divisible
-            n /= 4;
-        }
-        return n == 1;  // If after dividing by 4 repeatedly, the number becomes 1, it is a power of 4
-    }
+ public static boolean isPowerOfFour(int n) {
+     if (n <= 0) {
+         return false;
+     }
+     while (n % 4 == 0) {  // Keep dividing by 4 if divisible
+         n /= 4;
+     }
+     return n == 1;  // If after dividing by 4 repeatedly, the number becomes 1, it is a power of 4
+ }
 
-    public static void main(String[] args) {
-        int num = 64;
-        if (isPowerOfFour(num)) {
-            System.out.println(num + " is a power of four.");
-        } else {
-            System.out.println(num + " is not a power of four.");
-        }
-    }
+ public static void main(String[] args) {
+     int num = 64;
+     if (isPowerOfFour(num)) {
+         System.out.println(num + " is a power of four.");
+     } else {
+         System.out.println(num + " is not a power of four.");
+     }
+ }
 }*/
-                                   // program 25
- // prime factorization
+// program 25
+// prime factorization
 /*import java.util.Scanner;
 public class Bsics{
     public static void main(String[] args) {
@@ -574,7 +573,7 @@ public class Bsics{
     }
 }*/
 // note -- if u assign a double with integer value it will print it in .0 like we assign it as 19 it will print 19.0
-                                              // program 26
+// program 26
 // use if and boolena 
 /*public class Bsics{
     public static void main(String[] args) {
@@ -590,7 +589,7 @@ public class Bsics{
 }*/
 // note-) to store value in string we use {nextline} is we only use next then it will not read up the part after the space line 
 
-                                                 // program 27 
+// program 27 
 // input program function 
 /*import java.util.Scanner;
 public class Bsics{
@@ -619,9 +618,8 @@ public class Bsics{
 /*when ever you get input buffer just use 
 scanner.nextline():*/
 
-
-                                                 // program 28     
- // area of the rectangele 
+// program 28     
+// area of the rectangele 
 /*import java.util.Scanner;
  public class Bsics{
     public static void main(String[] args) {
@@ -634,7 +632,7 @@ scanner.nextline():*/
         System.out.println(" area of the rectangle is : "+area);
     }
  }*/
-                                            // program 29
+// program 29
 
 /*public class Bsics{
     public static void main(String[] args) {
@@ -649,7 +647,7 @@ scanner.nextline():*/
     }
 }*/
 
-                                                  // program 30
+// program 30
 /*public class Bsics {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -665,7 +663,7 @@ scanner.nextline():*/
     }
 }*/
 
-                                                      // program 31
+// program 31
 /*public class Bsics{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -701,14 +699,14 @@ scanner.nextline():*/
     }
 }*/
 
-                                              //program 32
+//program 32
 /*public class Bsics{
     public static void main(String[] args){
         System.out.println("Hello word with java");// println is usd in next line other wise write print
         System.out.print("Hello word with java\n y ayush dwvedi ");// can also be used for the work 
     }
-}*/                
-                                            // program 33
+}*/
+// program 33
 /*public class Bsics{
     public static void main(String[] args){
 
@@ -724,7 +722,7 @@ scanner.nextline():*/
 
     }
 }*/
-                   // program 34
+// program 34
 /*public class Bsics{
     public static void main(String[] args ){
         Scanner scn = new Scanner(System.in);
@@ -740,8 +738,8 @@ scanner.nextline():*/
         System.out.print("sUM OF a & b is  "+sum);
 
     }
-}*/                                                      
-                          // program 35
+}*/
+// program 35
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -754,8 +752,8 @@ scanner.nextline():*/
         }
 
     }
-}*/                          
-                                 // progarm 36
+}*/
+// progarm 36
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -769,7 +767,7 @@ scanner.nextline():*/
 
     }
 }*/
-                                  //program 37
+//program 37
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -788,27 +786,27 @@ scanner.nextline():*/
         }
 
     }
-}*/          
-                                    // program 38
- // switch program   
- /*
- switch(variable){
- case1:
- stt1;
- break;
- 
- case2:
+}*/
+// program 38
+// switch program   
+/*
+switch(variable){
+case1:
+stt1;
+break;
 
- stt2;
- break;
- 
- case3:
- stt3;
- break;
- 
- default:
- }*/                   
-                                  // program 39
+case2:
+
+stt2;
+break;
+
+case3:
+stt3;
+break;
+
+default:
+}*/
+// program 39
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -830,7 +828,7 @@ scanner.nextline():*/
         }
     }
 }*/
-                                // program 40
+// program 40
 /*public class Bsics{
     public static void main(String[] args){
 
@@ -840,7 +838,7 @@ scanner.nextline():*/
 
     }
 }*/
-                            // program 41
+// program 41
 /*public class Bsics{
     public static void main(String[] args){
         int i=0;
@@ -849,8 +847,8 @@ scanner.nextline():*/
             i++;
         }
     }
-}*/            
-                              // program 42
+}*/
+// program 42
 /* public class Bsics{
     public static void main(String[] args){
         int i=0;
@@ -859,8 +857,8 @@ scanner.nextline():*/
             i++;
         }while(i<11);
     }
-}*/             
-                              // program 43
+}*/
+// program 43
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -877,7 +875,7 @@ scanner.nextline():*/
 
     }
 }*/
-                              // program 44
+// program 44
 /*public class Bsics{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
@@ -889,45 +887,45 @@ scanner.nextline():*/
             System.out.println(i*j);
         } 
     }
- }*/  
+ }*/
 
-                              // program 45 
+// program 45 
 
-   // factorial number using function/methods 
-   /*public class Bsics{
-    public static void PrintFactorial(int n){
-       
-        if(n<=0){
-            System.out.println("Invalid Output{AS negative value or zero cannnot be taken as input  }");
-            return ;
-        }
+// factorial number using function/methods 
+/*public class Bsics{
+ public static void PrintFactorial(int n){
+    
+     if(n<=0){
+         System.out.println("Invalid Output{AS negative value or zero cannnot be taken as input  }");
+         return ;
+     }
 
-        int factorial = 1;
-        
-        for(int i=n;  i>=1; i--){ //mistake i have done was {1>=0} it will multiply by zero and i end whole answer will be zero 
-         factorial = factorial * i;
-        }
-       
-        System.out.println(factorial);
-        return;
+     int factorial = 1;
+     
+     for(int i=n;  i>=1; i--){ //mistake i have done was {1>=0} it will multiply by zero and i end whole answer will be zero 
+      factorial = factorial * i;
+     }
+    
+     System.out.println(factorial);
+     return;
 
-        }
+     }
 
-        public static void main(String[] args) {
+     public static void main(String[] args) {
 
-            System.out.println("enter the number you want to find out the factorial value  ");
-            Scanner scn = new Scanner(System.in);
-            int A = scn.nextInt();
+         System.out.println("enter the number you want to find out the factorial value  ");
+         Scanner scn = new Scanner(System.in);
+         int A = scn.nextInt();
 
-            PrintFactorial(A);
+         PrintFactorial(A);
 
-        }
-        
-    }*/
+     }
+     
+ }*/
 
-                                 //  program 46
- // count even  and odd 
- public class Bsics {
+//  program 46
+// count even  and odd 
+/*  public class Bsics {
     public static void main(String[] args) {
 
         int ev = 0;
@@ -949,4 +947,73 @@ scanner.nextline():*/
             System.out.println("Odd Numbers: " + od);
         }
     }
-}
+}*/
+// program 47
+// Write a program that takes 3 integers as input and prints the largest among them      
+
+/*public class Bsics {
+    public static void main(String[] args) {
+        
+        int a,b,c;
+        Scanner scn = new Scanner(System.in);
+       
+        System.out.println("Write all the numbers ");
+        System.out.println("Enter the First  Integer -a ");
+        a = scn.nextInt();
+        System.out.print("Enter the Second   Integer -b");
+        b = scn.nextInt();
+        System.out.print("Enter the third  Integer -c");
+        c = scn.nextInt();
+        
+        if(a == b && b == c && a==c  ){
+            System.out.print("  All value are equal ");
+        }
+        else if (a>=b && a>=c){
+            System.out.println("a is largest number ");
+        }
+        else if(b>=a && b>=c){
+            System.out.println("b is largest number ");
+        }
+        else{
+            System.out.println("c is largest number ");
+        }
+    }
+
+}*/
+//program 48                        
+// write a  java program to take a 3 digit input from user and print the sum of number 
+
+/*public class Bsics {
+    public static void main(String[] args) {
+        
+        // Create Scanner object to take input from the user
+        Scanner scn = new Scanner(System.in);
+
+        // Ask the user to enter a 3-digit number
+        System.out.print("Enter a 3-digit number: ");
+
+        // Store the entered number in variable 'num'
+        int num = scn.nextInt();
+
+        // Extract the last digit using modulus operator (%)
+        // Example: 123 % 10 = 3
+        int digit1 = num % 10;
+        // Remove the last digit using integer division (/)
+        // Example: 123 / 10 = 12
+        num = num / 10;
+        // Extract the new last digit
+        // Example: 12 % 10 = 2
+        int digit2 = num % 10;
+        // Remove the last digit again
+        // Example: 12 / 10 = 1
+        num = num / 10;
+        // The remaining number is the first digit
+        // Example: 1
+        int digit3 = num;
+        // Add all three digits
+        int sum = digit1 + digit2 + digit3;
+        // Display the result
+        System.out.println("Sum of digits = " + sum);
+
+    }
+};*/
