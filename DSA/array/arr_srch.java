@@ -6,7 +6,7 @@ public class arr_srch {
         int[] number; 
         int target;
         int size;
-        boolean isFound = false;
+        boolean isFound = false; 
 
         System.out.print("Enter the size of the array: ");
         size = scn.nextInt();
@@ -36,3 +36,4 @@ public class arr_srch {
         scn.close();
     }
 }
+
