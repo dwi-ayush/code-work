@@ -27,7 +27,7 @@ public class LargestElement {
         // If  we assume max with 0 tab negative number ko  nji leta tab max ka  pata nhi chalta 
         // Assume the first element is the largest
         int max = matrix[0][0];
-        // now this can work on the complete negative matrix also 
+        // now this can work on the complete negative matrix also   
 
         // Traverse the matrix to find the largest element
         for (int i = 0; i < row; i++) {
