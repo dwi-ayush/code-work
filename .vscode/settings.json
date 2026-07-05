@@ -1,0 +1,7 @@
+{
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "emmet.useInlineCompletions": true,
+    "files.exclude": {
+        "**/*.class": true
+    }
+}
