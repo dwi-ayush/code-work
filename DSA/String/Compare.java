@@ -7,8 +7,12 @@ public class Compare {
        String name2 = "Tony";
 
     // correct way to use it 
-    /*(name1.compareTo(name2))
-    -> in this their are 3 types of condition 
+    
+    
+    /*int result = name1.compareTo(name2);
+        System.out.println(result);*/
+
+    /*-> in this their are 3 types of condition 
     1-> -ve value  if str 1 is smaller than str 2 
     2-> 0 if equal 
     3-> +ve value  if str1 is larger than str 2 
