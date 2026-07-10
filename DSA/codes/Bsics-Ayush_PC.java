@@ -893,35 +893,35 @@ default:
 
 // factorial number using function/methods 
 /*public class Bsics{
-public static void PrintFactorial(int n){
+ public static void PrintFactorial(int n){
     
-    if(n<=0){
-        System.out.println("Invalid Output{AS negative value or zero cannnot be taken as input  }");
-        return ;
-    }
+     if(n<=0){
+         System.out.println("Invalid Output{AS negative value or zero cannnot be taken as input  }");
+         return ;
+     }
 
-    int factorial = 1;
-    
+     int factorial = 1;
+     
      for(int i=n;  i>=1; i--){ //mistake i have done was {1>=0} it will multiply by zero and i end whole answer will be zero 
       factorial = factorial * i;
-    }
+     }
     
-    System.out.println(factorial);
-    return;
+     System.out.println(factorial);
+     return;
 
-    }
+     }
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
-        System.out.println("enter the number you want to find out the factorial value  ");
-        Scanner scn = new Scanner(System.in);
-        int A = scn.nextInt();
+         System.out.println("enter the number you want to find out the factorial value  ");
+         Scanner scn = new Scanner(System.in);
+         int A = scn.nextInt();
 
-        PrintFactorial(A);
+         PrintFactorial(A);
 
-    }
-    
-}*/
+     }
+     
+ }*/
 
 //  program 46
 // count even  and odd 
