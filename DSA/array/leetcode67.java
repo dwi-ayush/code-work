@@ -13,7 +13,7 @@ public class leetcode67 {
         // carry stores the carry generated during binary addition.
         // Initially there is no carry, so it is 0.
         int carry = 0;
-
+        
         // StringBuilder is used because Strings are immutable in Java.
         // Appending to StringBuilder is much faster than repeatedly using String.
         StringBuilder ans = new StringBuilder();
