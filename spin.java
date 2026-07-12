@@ -1,3 +1,5 @@
+// do at your own risk as it is all on the Random class 
+
 import java.util.Random;
 
 public class spin {
@@ -17,3 +19,4 @@ public class spin {
 
     }
 }
+
