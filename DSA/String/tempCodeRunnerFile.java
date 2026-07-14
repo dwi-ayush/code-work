@@ -1,22 +1,12 @@
- // //Print length of a String -> function 2
-    //    String firstName = "Tony";
-    //    String secondName = "Stark";
-    //    String fullName = firstName + " " + secondName;
-    //    System.out.println(fullName.length());
+import java.util.*;
 
-    // //Access characters of a string -> function 3
-    //     String firstName = "Tony";
-    //     String secondName = "Stark";
-    //     String fullName = firstName + " " + secondName;
-    //     for(int i=0; i<fullName.length(); i++) 
-    //     {
-    //        System.out.println(fullName.charAt(i));
-    //     }
 
-    // // Substring of main Sring ->  function 4 
-    //     The substring of a string is a subpart of it.
-    //     public class Strings {
-    //     public static void main(String args[]) {
-    //     String name = "TonyStark";
-    //     System.out.println(name.substring(0, 4));
-    
+public class Strings {
+   public static void main(String args[]) {
+     StringBuilder sb = new StringBuilder("tony");
+     //Insert char
+     sb.insert(0, 'S');
+     System.out.println(sb);
+   }
+}
+
