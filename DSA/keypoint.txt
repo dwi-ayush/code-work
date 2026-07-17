@@ -143,4 +143,7 @@ but where asd in while loop we first check up the condition and implementation  
 is done that means in a invalid condition do while loop will once exhecute up the statemenat and 
 in while loop statemenatwill not be exhecuted
 ---------------------------------------------------------------------------------------------------------                                                                                                           
-    
+Math.max(value1, value 2);
+this function in java is used for finding the maximun value of the both value 
+
+----------------------------------------------------------------------------------------------------------------------------
