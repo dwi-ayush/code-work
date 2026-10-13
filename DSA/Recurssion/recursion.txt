@@ -1,0 +1,39 @@
+-> This will contain important terms and points for the recusrsion logic 
+// recursion class 1 
+
+sabse pahle ham dekhenge loop dekhenge 
+-> recusion aur itretion bhai bhai  matlb jo sare recusion ko use karke ho sakte
+ woh sare kaam itretionko use karke ho sakte hai 
+
+-> recusrion is a way of representation of itretion
+ kuki kuch jagh itretion ka code bhaut jayada complex ho jata hai to ham recursion use kar lete hai 
+
+-> kuch cases me recursion ka code bada ho jata hai to ham itretionuse kar lete hai
+ to yeah pura code aur logic and problem me depend karta hai 
+
+-> abb use of recursion 
+sorting alogorthim use recursion 
+tress and graphs majorly fuction use recursion as itretion make thm complex so we use recursion
+
+-> basic meaning of recursion 
+"a function that calls itself is known as recursion"
+
+-> ek simple basha me bole to recursion ek aisa function hai jo apne kisi inner function  ko call  lagta hai usme koi value 
+pass karta hai woh woh inner me ek vlaue pass hoti hai fhir woh function uss value ke hisab se vlaue calculate karke outer
+function  ko de deta hai 
+
+-> in java we use recursion to calculate the value of function  from inner fuction
+
+-> How does recursion Works?
+sabse pahle outer function  ek step lega and assume kar lega ki that inner function will calculate the rest of the value 
+
+How normal function work in java ??
+{Main function}<=>{2nd Function }[ that means main function ek second function ko call lagayi fhir usme  value return kardi main function ko]
+
+-> How recursion function work in java ???
+{main function}->[2nd function]->[2ndfunction]->[2nd function] (aise hi yeah apne aap ko call karta rahega tab tak jab tak ie base value na mil jaye)
+
+-> yeah process baar iss liye hoti hai kuki  yeah ek recursive function 
+
+-> when the function finshies the executing . It is removed from stack and the flow of program is 
+restored to where that function was called.
